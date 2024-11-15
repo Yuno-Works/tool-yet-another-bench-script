@@ -36,7 +36,7 @@ fi
 
 # determine architecture of host
 ARCH=$(uname -m)
-if [[ $ARCH = *amd64* ]]; then
+if [[ $ARCH = amd64 ]]; then
 	# host is running a 64-bit kernel
 	ARCH="x64"
 elif [[ $ARCH = *i?86* ]]; then
