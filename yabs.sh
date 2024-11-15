@@ -38,7 +38,7 @@ fi
 ARCH=$(uname -m)
 if [[ $ARCH = *x86_64* ]]; then
 	# host is running a 64-bit kernel
-	ARCH="x64"
+	ARCH="amd64"
 elif [[ $ARCH = *i?86* ]]; then
 	# host is running a 32-bit kernel
 	ARCH="x86"
